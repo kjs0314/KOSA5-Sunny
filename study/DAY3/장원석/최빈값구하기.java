@@ -2,9 +2,8 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] array) {
-        ArrayList<Node> arrayList = new ArrayList<>();
-        arrayList.add(new Node(0, 0));
-		for (int i = 1; i <= 1000; i++) {
+		ArrayList<Node> arrayList = new ArrayList<>();
+		for (int i = 0; i <= 1000; i++) {
 			arrayList.add(new Node(i, 0));
 		}
 		
